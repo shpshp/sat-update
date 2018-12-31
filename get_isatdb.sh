@@ -1,0 +1,1 @@
+wget -r -np -H "https://www.isatdb.com/" --no-check-certificate -k -p --show-progress --restrict-file-names=windows -D "isatdb.com" -A "*.*,*" -X "ar,cn,de,en,es,fr,in,it,ja,ko,tr" -t 100 --retry-connrefused -N --no-dns-cache --random-wait -nc
